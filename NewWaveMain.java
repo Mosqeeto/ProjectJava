@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class NewWaveMain {
 
 
@@ -71,20 +70,19 @@ public class NewWaveMain {
 	System.out.println( );
 	System.out.printf("Quanity   ITEM                  COST");
 	System.out.println(" ");
-	System.out.printf("1  NW-PC                     "+ sumPC );
+	System.out.printf("%-29s%.2f" , "1  NW-PC" , + sumPC);
 	System.out.println(" ");
-	System.out.printf("2  Memory Card               "+sumMemCard     );
+	System.out.printf("%-29s%.2f" , "2  Memory Card" , + sumMemCard);
 	System.out.println(" ");
-	System.out.printf("3  Disk Drive                "+sumDisk  );
+	System.out.printf("%-29s%.2f" , "3  Disk Drive" , + sumDisk);
 	System.out.println(" ");
-	System.out.printf("4  Software                  "+sumSoftware  );
+	System.out.printf("%-29s%.2f" , "4  Software" , + sumSoftware);
 	System.out.println(" ");
 	System.out.println(" ");
-	System.out.println("    TOTAL                   "+total  );
-
-
-	System.out.println("****************************************************************")
-	
+	System.out.print("     TOTAL");
+	System.out.printf("%26.2f" , +total);
+	System.out.println(" ");
+	System.out.println("****************************************************************");
 
 	}
 
